@@ -41,12 +41,11 @@ function Popular() {
                         pagination: false,
                         drag: "free",
                         gap: "1rem",
-
                     }
                 }>
                     {popular.map((recipe) => {
                         return (
-                            <SplideSlide>
+                            <SplideSlide key={recipe.id}>
                                 <Card>
                                     <p>{recipe.title}</p>
                                     <img src={recipe.image} alt={recipe.title} />
