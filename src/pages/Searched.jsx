@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+
 function Searched() {
   const [searchedRecipes, setSearchedRecipes] = useState([]);
   let params = useParams();

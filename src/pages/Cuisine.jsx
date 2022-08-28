@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Link, useParams } from 'react-router-dom';
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function Cuisine() {
