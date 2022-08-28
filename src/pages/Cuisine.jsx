@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { Link, useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-
 function Cuisine() {
   const [cuisine, setCuisine] = useState([]);
   let params = useParams();
@@ -28,7 +27,6 @@ function Cuisine() {
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-
     >
       {cuisine.map((item) => {
         return (
